@@ -138,7 +138,7 @@
 				<div class="row text-center">
 						<div class="navbar">
 							<ul class="nav nav-tabs nav-justified">
-								<li>
+								<li class="active">
 									<a href="#microphones" data-toggle="tab">
 										Microphones
 									</a>
@@ -335,10 +335,10 @@
       $(function() {
           $('a[href*=#]:not([href=#])').click(function() {
               if( $(this).attr("href") =="#myCarousel"
-                  || $(this).attr("href")=="#appetizer"
-                  || $(this).attr("href")=="#lunch"
-                  || $(this).attr("href")=="#dinner"
-                  || $(this).attr("href")=="#dessert") return; //These are the exceptions
+                  || $(this).attr("href")=="#microphones"
+                  || $(this).attr("href")=="#headphones"
+                  || $(this).attr("href")=="#mixers"
+                  || $(this).attr("href")=="#speakers") return; //These are the exceptions
               if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
                   var target = $(this.hash);
                   target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
