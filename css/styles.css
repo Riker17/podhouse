@@ -156,8 +156,7 @@ nav.navbar {
 #review h1 {
   font-family: 'PT Serif', serif;
   font-size: 5em;
-  color: #f8512f;
-  /* text-shadow: 1px 1px 5px #0a0a0a; */
+  color: #f8532f;
 }
 
 #review p {
@@ -165,7 +164,6 @@ nav.navbar {
   font-family: 'PT Serif', serif;
   font-weight: 300;
   font-size: 2em;
-  /* text-shadow: 1px 1px 5px #0a0a0a; */
 }
 
 #our_story h1,
@@ -178,11 +176,11 @@ nav.navbar {
 /* Begin Menu Section */
 
 #menu {
-  background-image: url('../img/');
+  background-image: url('../img/bgc-img.jpg');
   background-size: cover;
   background-attachment: fixed;
   padding-top: 40px;
-  padding-bottom: 70px;
+  padding-bottom: 80px;
 }
 
 #menu h1 {
@@ -211,8 +209,8 @@ nav.navbar {
   font-weight: 300;
 }
 
-.food {
-  background-color: #fff;
+.equipment {
+  background-color: #ffd211;
   padding: 20px 0px;
 }
 
